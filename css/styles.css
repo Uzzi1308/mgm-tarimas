@@ -163,12 +163,16 @@
 
     .hero-h1 {
       font-family: 'Chillax', sans-serif;
-      font-size: clamp(3rem, 5vw, 5rem);
-      font-weight: 700; line-height: 1.0;
-      color: var(--oscuro); letter-spacing: -.03em;
+      font-size: clamp(4rem, 6vw, 6rem);
+      font-weight: 700; line-height: .7;
+      color: var(--cafe); letter-spacing: -.03em;
     }
     .h1-cafe  { color: var(--cafe); }
-    .h1-verde { color: var(--verde); }
+    .h1-verde { 
+      color: var(--verde);
+      font-size: clamp(2rem, 4vw, 4rem);
+      font-weight: 500;
+     }
 
     .hero-p {
       margin-top: 1.5rem;
@@ -593,7 +597,7 @@
       text-decoration: none; cursor: pointer;
       transition: background .2s, border-color .2s, color .2s;
     }
-    .soc:hover { background: var(--cafe); border-color: var(--cafe); color: #fff; }
+    .soc:hover {  color: #fff; }
     .soc.wa:hover { background: #25d366; border-color: #25d366; }
 
     .footer-btm {
